@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>PORTALFINDER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Überschrift -->
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h1 class="box-style box-header buchstaben">PORTALFINDER</h1>
+    </div>
+
+    <!-- Start Koordinaten -->
+    <h2>Start Koordinaten</h2>
+    <label>X: <input type="number" id="startx"></label>
+    <label>Z: <input type="number" id="startz"></label>
+
+    <!-- Ziel Koordinaten -->
+    <h2>Ziel Koordinaten</h2>
+    <label>X: <input type="number" id="startx2"></label>
+    <label>Z: <input type="number" id="startz2"></label>
+
+    <!-- Berechnen-Button -->
+    <div style="text-align: center; margin-top: 20px;">
+        <button class="box-style box-button" onclick="berechnen()">Berechnen</button>
+    </div>
+
+    <!-- Ergebnisbox -->
+    <div class="box-style box-output" id="output"></div>
+
+    <!-- Copy-Buttons -->
+    <div class="copy-buttons">
+        <button class="box-style box-button" onclick="copyText('nether')">Nether Portal kopieren</button>
+        <button class="box-style box-button" onclick="copyText('ziel')">Ziel Portal kopieren</button>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
+

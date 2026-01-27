@@ -1,0 +1,79 @@
+/* Hintergrund mit Bild-Textur */
+body {
+    font-family: Arial, sans-serif;
+    color: #FFF;
+    padding: 20px;
+
+    background-image: url("background.jpeg");
+    background-repeat: repeat;      /* Bild wird kachelförmig wiederholt */
+    background-size: 50px 50px;    /* Größe jeder Kachel */
+}
+
+/* Überschriften */
+h2 {
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+/* Gemeinsamer Box-Stil */
+.box-style {
+    border: 3px solid #800080;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+}
+
+/* Überschrift */
+.box-header {
+    display: inline-block;
+}
+
+/* Button */
+.box-button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 30px;
+    transition: 0.2s;
+    text-align: center;
+}
+.box-button:hover {
+    background: rgba(50,0,50,0.8);
+}
+
+/* Ergebnisbox */
+.box-output {
+    margin-top: 20px;
+}
+
+/* Buchstaben-Outline für Überschrift */
+.buchstaben {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+/* Copy-Buttons */
+.copy-buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
